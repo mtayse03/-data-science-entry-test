@@ -39,7 +39,7 @@ print(find_and_replace(["apple", "banana", "apple"], "apple", "orange"))
 # [1, 5, 3, 4, 5, 5]
 # ['orange', 'banana', 'orange']
 
-# ==== (prefer below ans)
+# Alternative answer below and giving same output
 
 def find_and_replace(lst, find_val, replace_val):
     if not isinstance(lst, list):
